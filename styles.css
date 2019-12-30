@@ -13,7 +13,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    padding:15px;
+    padding: 16px 20px 13px 20px;
     background-color:#eeeaea;
     font-size: 13px;
 }
@@ -30,13 +30,13 @@ body {
 }
 
 #search-buttons {
-    padding-top: 20px;
+    margin-top: 30px;
 }
 
 .search-bar {
     margin-top: 40px;
     width: 450px;
-    height: 30px;
+    
 }
 
 .align-left {
@@ -53,13 +53,37 @@ body {
     padding: 8px;
 }
 
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .sign-in {
     background-color:#4285f4;
     color: white;
     font-weight: bold;
     padding: 8px 14px;
     margin-right: 20px;
-    border-radius: 4%;
+    margin-left: 10px;
+    border-radius: 3px;
 }
 
 
+#btn1, #btn2 {
+    background-color: rgb(245, 240, 240);
+    border-radius: 4px;
+    border-color: transparent;
+    padding: 9px 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0px 5px;
+    color: rgb(94, 92, 92);
+
+}
+
+#btn1:hover, #btn2:hover {
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    border-color:rgb(207, 206, 206);
+    cursor: pointer;
+}
