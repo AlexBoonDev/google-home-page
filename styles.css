@@ -13,9 +13,10 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    font-size: 13px;
     padding: 16px 20px 13px 20px;
     background-color:#eeeaea;
-    font-size: 13px;
+    border-top: solid 1px rgb(212, 211, 211)
 }
 
 #navbar {
@@ -83,7 +84,6 @@ body {
 
 #btn1:hover, #btn2:hover {
     color: rgb(0, 0, 0);
-    border-radius: 4px;
     border-color:rgb(207, 206, 206);
     cursor: pointer;
 }
